@@ -10,16 +10,17 @@
         line-height: @line-height-base;
     }
     .lead { font-size: ceil(@font-size-base * 1.5); }
+    .text-handwritten { font-size: ceil(@font-size-base * 1.5); }
 }
 
 // Large Breakpoint
 @media only screen and (min-width: @screen-lg-min) {
 
-    h1:not(.panel h1), .h1:not(.panel .h1) { font-size: floor((@font-size-h1 * 1.5)); }
-    h2:not(.panel h2), .h2:not(.panel .h2) { font-size: floor((@font-size-h2 * 1.5)); }
-    h3:not(.panel h3), .h3:not(.panel .h3) { font-size: floor((@font-size-h3 * 1.5)); }
-    h4:not(.panel h4), .h4:not(.panel .h4) { font-size: floor((@font-size-h4 * 1.5)); }
-    h5:not(.panel h5), .h5:not(.panel .h5) { font-size: floor((@font-size-h5 * 1.5)); }
-    h6:not(.panel h6), .h6:not(.panel .h6) { font-size: floor((@font-size-h6 * 1.5)); }
+    h1, .h1 { font-size: floor((@font-size-h1 * 1.4)); }
+    h2, .h2 { font-size: floor((@font-size-h2 * 1.4)); }
+    h3, .h3 { font-size: floor((@font-size-h3 * 1.4)); }
+    h4, .h4 { font-size: floor((@font-size-h4 * 1.4)); }
+    h5, .h5 { font-size: floor((@font-size-h5 * 1.4)); }
+    h6, .h6 { font-size: floor((@font-size-h6 * 1.4)); }
 
 }

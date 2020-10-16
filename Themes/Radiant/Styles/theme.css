@@ -225,12 +225,12 @@ img.jcrop-preview {
 }
 .chosen-container .chosen-results li.disabled-result {
   display: list-item;
-  color: #eaeaea;
+  color: #dddddd;
 }
 .chosen-container .chosen-results .no-results {
   display: list-item;
   padding: 8px;
-  color: #F1EDEB;
+  color: #eaeaea;
 }
 .chosen-container .chosen-results-scroll {
   position: absolute;
@@ -403,7 +403,7 @@ img.jcrop-preview {
   box-shadow: none;
 }
 .chosen-container-multi .chosen-choices .search-field .default {
-  color: #eaeaea;
+  color: #dddddd;
 }
 .chosen-container-multi .chosen-choices .search-choice {
   position: relative;
@@ -439,7 +439,7 @@ img.jcrop-preview {
   color: #646464;
 }
 .chosen-container-multi .chosen-choices .search-choice-focus {
-  background: #F1EDEB;
+  background: #eaeaea;
 }
 .chosen-container-multi .chosen-choices .search-choice-focus .search-choice-close {
   background-position: right -11px;
@@ -2451,19 +2451,19 @@ tr.row-highlight td {
   background-color: #d5e6ed !important;
 }
 .table > thead > tr.grid-header-bold th {
-  color: #ffffff;
+  color: #f7f7f7;
   vertical-align: top !important;
   background-color: #428bca;
   border-color: #5697d0;
 }
 .table > tbody > tr.grid-row-bold td {
-  color: #ffffff;
+  color: #f7f7f7;
   vertical-align: top !important;
   background-color: #428bca;
   border-color: #5697d0;
 }
 .table > tbody > tr.grid-row-bold:hover td {
-  color: #ffffff !important;
+  color: #f7f7f7 !important;
   background-color: #6aa3d5;
 }
 .table > tbody > tr.is-inactive > td {
@@ -2862,7 +2862,7 @@ span.data-view-filter-label {
   position: relative;
   font-size: 12px;
   line-height: 12px;
-  color: #eaeaea;
+  color: #dddddd;
   white-space: nowrap;
 }
 .tag-flair .tag-color + .tag-label {
@@ -2922,7 +2922,7 @@ span.data-view-filter-label {
   overflow: hidden;
   font-size: 24px;
   line-height: 1;
-  color: #eaeaea;
+  color: #dddddd;
   text-align: center;
   vertical-align: middle;
   border-radius: 50%;
@@ -2959,7 +2959,7 @@ span.data-view-filter-label {
   display: inline-block;
   font-size: 12px;
   line-height: 1.3;
-  color: #eaeaea;
+  color: #dddddd;
   vertical-align: top;
 }
 .meta .meta-figure {
@@ -2993,7 +2993,7 @@ span.data-view-filter-label {
   height: 20px;
   padding: 0;
   line-height: 20px;
-  color: #eaeaea;
+  color: #dddddd;
 }
 .meta .meta-body .btn-overflow:hover,
 .meta .meta-body .btn-overflow:focus {
@@ -3092,7 +3092,7 @@ span.data-view-filter-label {
   padding: 0;
   margin-left: 32px;
   font-size: 12px;
-  color: #eaeaea;
+  color: #dddddd;
 }
 .note .note-footer-meta-list > li > .btn i {
   margin-right: 4px;
@@ -3433,7 +3433,7 @@ span.data-view-filter-label {
 .scheduledtransaction-item {
   padding-bottom: 6px;
   margin-bottom: 12px;
-  border-bottom: 1px solid #F1EDEB;
+  border-bottom: 1px solid #eaeaea;
 }
 .scheduledtransaction-item:last-child {
   border-bottom: 0;
@@ -4480,7 +4480,7 @@ span.field-value {
     position: relative;
     padding-left: 35%;
     /* Behave  like a "row" */
-    border-bottom: 1px solid #F1EDEB;
+    border-bottom: 1px solid #eaeaea;
   }
   .table-groupmembers td::before {
     /* Now like a table header */
@@ -4559,7 +4559,7 @@ span.field-value {
     position: relative;
     /* Behave  like a "row" */
     border: 0;
-    border-bottom: 1px solid #F1EDEB;
+    border-bottom: 1px solid #eaeaea;
   }
   .table-groupcontactinfo tbody .person-name {
     /* Now like a table header */
@@ -4582,7 +4582,7 @@ span.field-value {
     padding-left: 35%;
     /* Behave  like a "row" */
     border: 0;
-    border-bottom: 1px solid #F1EDEB;
+    border-bottom: 1px solid #eaeaea;
   }
   .table-groupcontactinfo tbody .person-sms::before {
     /* Now like a table header */
@@ -4663,7 +4663,7 @@ span.field-value {
   content: "Deceased";
 }
 .groupmembers .member.deceased:hover {
-  background-color: #d1d1d1;
+  background-color: #c4c4c4;
 }
 .groupmembers .member.deceased .person-info::after {
   font-size: 10px;
@@ -4684,7 +4684,7 @@ tr.inactive td {
 }
 .bulk-update .form-group.bulk-item-selected {
   padding: 12px;
-  background-color: #F1EDEB;
+  background-color: #eaeaea;
   border-radius: 5px;
   opacity: 1;
 }
@@ -4701,7 +4701,7 @@ tr.inactive td {
 .grid-table tbody tr.duplicate-source td,
 .grid-table tbody tr.duplicate-source:hover > td {
   color: #303030;
-  background-color: #eaeaea;
+  background-color: #dddddd;
 }
 .disc-assessment th {
   padding: 6px;
@@ -4799,7 +4799,7 @@ tr.inactive td {
   margin-bottom: 48px;
 }
 .question-row .answered {
-  color: #eaeaea;
+  color: #dddddd;
 }
 .question-row .likert > .control-label {
   margin-bottom: 9px;
@@ -4813,7 +4813,7 @@ tr.inactive td {
   border-radius: 4px;
 }
 .question-row .likert .radio-inline:hover {
-  background-color: #F1EDEB;
+  background-color: #eaeaea;
 }
 .question-row .likert .radio-inline .label-text::before,
 .question-row .likert .radio-inline .label-text::after {
@@ -5463,7 +5463,7 @@ iframe.email-body {
   height: 30px;
   margin: 0 auto 6px;
   font-size: 28px;
-  color: #eaeaea;
+  color: #dddddd;
   text-align: center;
 }
 .components-list .component span {
@@ -5567,7 +5567,7 @@ iframe.email-body {
 .sms-action > .fa {
   width: 30px;
   padding-right: 2px;
-  color: #eaeaea;
+  color: #dddddd;
   text-align: center;
 }
 .panel-palette {
@@ -5767,7 +5767,7 @@ iframe.email-body {
 .attendance-reporting .analysis-types {
   padding: 15px 0;
   margin-bottom: 24px;
-  background-color: #F1EDEB;
+  background-color: #eaeaea;
 }
 /*
     Used to manage styles for specific blocks.
@@ -6764,7 +6764,7 @@ fieldset .actions {
   background-color: #DE3B23;
 }
 .label-communicationstatus-draft {
-  background-color: #eaeaea;
+  background-color: #dddddd;
 }
 .label-communicationstatus-submitted {
   background-color: #e7b235;
@@ -6858,16 +6858,16 @@ fieldset .actions {
 }
 .datepicker table tr td.old,
 .datepicker table tr td.new {
-  color: #eaeaea;
+  color: #dddddd;
 }
 .datepicker table tr td.day:hover,
 .datepicker table tr td.focused {
   cursor: pointer;
-  background: #F1EDEB;
+  background: #eaeaea;
 }
 .datepicker table tr td.disabled,
 .datepicker table tr td.disabled:hover {
-  color: #eaeaea;
+  color: #dddddd;
   cursor: default;
   background: none;
 }
@@ -6881,7 +6881,7 @@ fieldset .actions {
 }
 .datepicker table tr td.highlighted.disabled,
 .datepicker table tr td.highlighted.disabled:active {
-  color: #eaeaea;
+  color: #dddddd;
   background: #e2eff1;
 }
 .datepicker table tr td.today {
@@ -6897,22 +6897,22 @@ fieldset .actions {
 }
 .datepicker table tr td.today.disabled,
 .datepicker table tr td.today.disabled:active {
-  color: #eaeaea;
+  color: #dddddd;
   background: #ffdb99;
 }
 .datepicker table tr td.range {
   color: #000;
-  background: #F1EDEB;
+  background: #eaeaea;
   border-radius: 0;
 }
 .datepicker table tr td.range.focused,
 .datepicker table tr td.range:hover {
-  background: #dcd2cd;
+  background: #d1d1d1;
 }
 .datepicker table tr td.range.disabled,
 .datepicker table tr td.range.disabled:active {
-  color: #eaeaea;
-  background: #F1EDEB;
+  color: #dddddd;
+  background: #eaeaea;
 }
 .datepicker table tr td.range-start {
   border-top-right-radius: 0;
@@ -6924,37 +6924,37 @@ fieldset .actions {
 }
 .datepicker table tr td.range.highlighted {
   color: #0000;
-  background: #eaeeee;
+  background: #e6edee;
 }
 .datepicker table tr td.range.highlighted.focused {
-  background: #cdd8d8;
+  background: #c8d6d9;
 }
 .datepicker table tr td.range.highlighted.disabled,
 .datepicker table tr td.range.highlighted.disabled:active {
-  color: #eaeaea;
-  background: #eaeeee;
+  color: #dddddd;
+  background: #e6edee;
 }
 .datepicker table tr td.range.today {
   color: #000;
-  background: #f8c976;
+  background: #f5c875;
 }
 .datepicker table tr td.range.today:hover {
-  background: #f6b645;
+  background: #f1b446;
 }
 .datepicker table tr td.range.today.disabled,
 .datepicker table tr td.range.today.disabled:active {
-  color: #eaeaea;
-  background: #f8c976;
+  color: #dddddd;
+  background: #f5c875;
 }
 .datepicker table tr td.selected,
 .datepicker table tr td.selected.highlighted {
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background: #eaeaea;
+  background: #dddddd;
 }
 .datepicker table tr td.selected:hover,
 .datepicker table tr td.selected.highlighted:hover {
-  background: #d1d1d1;
+  background: #c4c4c4;
 }
 .datepicker table tr td.active,
 .datepicker table tr td.active.highlighted {
@@ -6980,11 +6980,11 @@ fieldset .actions {
 }
 .datepicker table tr td span:hover,
 .datepicker table tr td span.focused {
-  background: #F1EDEB;
+  background: #eaeaea;
 }
 .datepicker table tr td span.disabled,
 .datepicker table tr td span.disabled:hover {
-  color: #eaeaea;
+  color: #dddddd;
   cursor: default;
   background: none;
 }
@@ -6998,7 +6998,7 @@ fieldset .actions {
 }
 .datepicker table tr td span.old,
 .datepicker table tr td span.new {
-  color: #eaeaea;
+  color: #dddddd;
 }
 .datepicker .datepicker-switch {
   width: 145px;
@@ -7013,7 +7013,7 @@ fieldset .actions {
 .datepicker .prev:hover,
 .datepicker .next:hover,
 .datepicker tfoot tr th:hover {
-  background: #F1EDEB;
+  background: #eaeaea;
 }
 .datepicker .prev.disabled,
 .datepicker .next.disabled {
@@ -7816,7 +7816,7 @@ ul.list-group-panel .list-group-item:first-child,
   -webkit-align-items: flex-start;
   align-items: flex-start;
   padding: 8px 0;
-  background-color: #F1EDEB;
+  background-color: #eaeaea;
 }
 .wizard:before,
 .wizard:after {
@@ -7853,7 +7853,7 @@ ul.list-group-panel .list-group-item:first-child,
   height: 36px;
   padding: 9px 7px;
   color: #bbb;
-  background: #d7d7d7;
+  background: #ffffff;
   border: 1px solid #bbb;
   border-radius: 60px;
 }
@@ -7875,28 +7875,28 @@ ul.list-group-panel .list-group-item:first-child,
 }
 .wizard .wizard-item.active {
   font-weight: bold;
-  color: #979797;
+  color: #F1EDEB;
 }
 .wizard .wizard-item.active::before {
   background-color: #a2a2a2;
 }
 .wizard .wizard-item.active .wizard-item-icon i {
   color: #fff;
-  background-color: #979797;
-  border-color: #979797;
+  background-color: #F1EDEB;
+  border-color: #F1EDEB;
 }
 .wizard .wizard-item.complete {
-  color: #979797;
+  color: #F1EDEB;
 }
 .wizard .wizard-item.complete a {
-  color: #979797;
+  color: #F1EDEB;
 }
 .wizard .wizard-item.complete::before {
   background-color: #a2a2a2;
 }
 .wizard .wizard-item.complete .wizard-item-icon i {
   color: #fff;
-  background-color: #979797;
+  background-color: #F1EDEB;
   border-color: #fff;
 }
 .wizard .wizard-item:first-of-type::before {
@@ -9664,11 +9664,11 @@ a.warning {
 }
 .alert-default {
   color: #303030;
-  background-color: #F1EDEB;
-  border-color: #dcd2cd;
+  background-color: #eaeaea;
+  border-color: #d1d1d1;
 }
 .alert-default hr {
-  border-top-color: #d2c5be;
+  border-top-color: #c4c4c4;
 }
 .alert-default .alert-link {
   color: #161616;
@@ -10723,11 +10723,11 @@ fieldset[disabled] .btn-danger-solid.focus {
   letter-spacing: -0.3px;
 }
 .text-secondary {
-  color: #979797;
+  color: #F1EDEB;
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #7e7e7e;
+  color: #dcd2cd;
 }
 .text-white {
   color: #fff;
@@ -10737,18 +10737,18 @@ a.text-white:focus {
   color: #e6e6e6;
 }
 .text-gray-lighter {
-  color: #F1EDEB;
+  color: #eaeaea;
 }
 a.text-gray-lighter:hover,
 a.text-gray-lighter:focus {
-  color: #dcd2cd;
+  color: #d1d1d1;
 }
 .text-gray-light {
-  color: #eaeaea;
+  color: #dddddd;
 }
 a.text-gray-light:hover,
 a.text-gray-light:focus {
-  color: #d1d1d1;
+  color: #c4c4c4;
 }
 .text-gray {
   color: #979797;
@@ -10779,11 +10779,11 @@ a.text-black:focus {
   color: #000000;
 }
 .bg-secondary {
-  background-color: #979797;
+  background-color: #F1EDEB;
 }
 a.bg-secondary:hover,
 a.bg-secondary:focus {
-  background-color: #7e7e7e;
+  background-color: #dcd2cd;
 }
 .bg-white {
   background-color: #fff;
@@ -10793,18 +10793,18 @@ a.bg-white:focus {
   background-color: #e6e6e6;
 }
 .bg-gray-lighter {
-  background-color: #F1EDEB;
+  background-color: #eaeaea;
 }
 a.bg-gray-lighter:hover,
 a.bg-gray-lighter:focus {
-  background-color: #dcd2cd;
+  background-color: #d1d1d1;
 }
 .bg-gray-light {
-  background-color: #eaeaea;
+  background-color: #dddddd;
 }
 a.bg-gray-light:hover,
 a.bg-gray-light:focus {
-  background-color: #d1d1d1;
+  background-color: #c4c4c4;
 }
 .bg-gray {
   background-color: #979797;
@@ -10892,7 +10892,7 @@ blockquote {
 }
 .lead {
   font-style: italic;
-  color: #979797;
+  color: #F1EDEB;
   font-size: 24px;
 }
 ul li,
@@ -10917,9 +10917,9 @@ ol li:before {
   width: 30px;
   margin-left: -30px;
 }
-.text-handwritten {
+p.text-handwritten {
   font-family: 'felt-tip-roman', sans-serif;
-  font-size: 130%;
+  font-size: 28px;
 }
 @media print {
   @page {
@@ -11125,30 +11125,33 @@ img {
   .lead {
     font-size: 30px;
   }
+  .text-handwritten {
+    font-size: 30px;
+  }
 }
 @media only screen and (min-width: 1600px) {
-  h1:not(.panel h1),
-  .h1:not(.panel .h1) {
-    font-size: 78px;
+  h1,
+  .h1 {
+    font-size: 72px;
   }
-  h2:not(.panel h2),
-  .h2:not(.panel .h2) {
-    font-size: 63px;
+  h2,
+  .h2 {
+    font-size: 58px;
   }
-  h3:not(.panel h3),
-  .h3:not(.panel .h3) {
-    font-size: 54px;
+  h3,
+  .h3 {
+    font-size: 50px;
   }
-  h4:not(.panel h4),
-  .h4:not(.panel .h4) {
-    font-size: 45px;
+  h4,
+  .h4 {
+    font-size: 42px;
   }
-  h5:not(.panel h5),
-  .h5:not(.panel .h5) {
-    font-size: 39px;
+  h5,
+  .h5 {
+    font-size: 36px;
   }
-  h6:not(.panel h6),
-  .h6:not(.panel .h6) {
-    font-size: 33px;
+  h6,
+  .h6 {
+    font-size: 30px;
   }
 }
