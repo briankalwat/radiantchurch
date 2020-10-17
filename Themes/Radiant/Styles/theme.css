@@ -2068,7 +2068,7 @@ dl:not(.dl-horizontal) dd {
   border-top: 4px solid #DE3B23;
 }
 .metriccard.metriccard-info {
-  border-top-color: #69ADB8;
+  border-top-color: #13b5da;
 }
 .metriccard.metriccard-warning {
   border-top-color: #e7b235;
@@ -2583,8 +2583,8 @@ tr.row-highlight td {
   clear: both;
 }
 .lava-debug code {
-  color: #69ADB8;
-  background-color: #d1e6e9;
+  color: #13b5da;
+  background-color: #91e3f5;
 }
 .lava-debug p {
   margin-bottom: 10px;
@@ -2600,16 +2600,16 @@ tr.row-highlight td {
   border: 0;
 }
 .lava-debug .panel.panel-lavadebug .panel-heading {
-  color: #69ADB8;
+  color: #13b5da;
   cursor: pointer;
-  background-color: #d8eaec;
+  background-color: #9ae5f6;
   border: 0;
 }
 .lava-debug .panel.panel-lavadebug .panel-heading.collapsed i::before {
   content: "\f078";
 }
 .lava-debug .panel.panel-lavadebug .panel-body {
-  background-color: #edf5f6;
+  background-color: #b6ecf9;
 }
 .socialsharing {
   padding: 0;
@@ -3041,7 +3041,7 @@ span.data-view-filter-label {
   box-shadow: inset 5px 0 0 0 #DE3B23;
 }
 .note article.is-personal {
-  box-shadow: inset 5px 0 0 0 #69ADB8;
+  box-shadow: inset 5px 0 0 0 #13b5da;
 }
 .note .note-comments {
   background: #f0f3f6;
@@ -3971,7 +3971,7 @@ span.data-view-filter-label {
 }
 .attendance-chart-block li span {
   width: calc(100% - 3px);
-  background: #69ADB8 !important;
+  background: #13b5da !important;
 }
 .badge-attendance .attendance-chart {
   width: 220px;
@@ -4029,7 +4029,7 @@ span.data-view-filter-label {
   display: block;
   width: 100%;
   min-height: 1px;
-  background: #69ADB8;
+  background: #13b5da;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   .streak-chart li span {
@@ -4954,7 +4954,7 @@ tr.inactive td {
   display: none;
 }
 .step-card .badge {
-  background-color: #69ADB8;
+  background-color: #13b5da;
 }
 .step-card > .step-card-hover {
   position: absolute;
@@ -5174,10 +5174,10 @@ iframe.email-body {
   font-size: 16px;
 }
 .template-selected {
-  border: 2px solid #69ADB8;
+  border: 2px solid #13b5da;
 }
 .template-selected:hover {
-  border: 2px solid #69ADB8;
+  border: 2px solid #13b5da;
 }
 .template-selected::before {
   position: absolute;
@@ -5187,7 +5187,7 @@ iframe.email-body {
   font-family: 'FontAwesome';
   font-size: 36px;
   font-weight: 900;
-  color: #69ADB8;
+  color: #13b5da;
   content: "\f058";
 }
 .step-title {
@@ -5698,7 +5698,7 @@ iframe.email-body {
   background-color: #aeaeae;
 }
 .metric-delivered {
-  background-color: #69ADB8;
+  background-color: #13b5da;
 }
 .metric-failed {
   background-color: #DE3B23;
@@ -5837,8 +5837,8 @@ iframe.email-body {
 }
 .calendar-month .calendar-today,
 .calendar-month .calendar-selecteditem {
-  color: #69ADB8 !important;
-  background-color: #e2eff1 !important;
+  color: #13b5da !important;
+  background-color: #a8e9f7 !important;
   border-radius: 0;
 }
 .calendar-month .calendar-selecteditem:first-child {
@@ -5849,7 +5849,7 @@ iframe.email-body {
 }
 .calendar-month .calendar-selected {
   color: #fff !important;
-  background-color: #69ADB8 !important;
+  background-color: #13b5da !important;
 }
 .calendar-month .calendar-selected a {
   color: #fff !important;
@@ -6873,16 +6873,16 @@ fieldset .actions {
 }
 .datepicker table tr td.highlighted {
   color: #000;
-  background: #e2eff1;
+  background: #a8e9f7;
   border-radius: 0;
 }
 .datepicker table tr td.highlighted.focused {
-  background: #c0dce1;
+  background: #79ddf3;
 }
 .datepicker table tr td.highlighted.disabled,
 .datepicker table tr td.highlighted.disabled:active {
   color: #cfcfcf;
-  background: #e2eff1;
+  background: #a8e9f7;
 }
 .datepicker table tr td.today {
   color: #000;
@@ -6924,15 +6924,15 @@ fieldset .actions {
 }
 .datepicker table tr td.range.highlighted {
   color: #0000;
-  background: #e8eff0;
+  background: #cbebf3;
 }
 .datepicker table tr td.range.highlighted.focused {
-  background: #cad9db;
+  background: #a2dce9;
 }
 .datepicker table tr td.range.highlighted.disabled,
 .datepicker table tr td.range.highlighted.disabled:active {
   color: #cfcfcf;
-  background: #e8eff0;
+  background: #cbebf3;
 }
 .datepicker table tr td.range.today {
   color: #000;
@@ -7574,8 +7574,8 @@ fieldset .actions {
   font-size: 84px;
 }
 .well-message.well-message-info {
-  color: #69ADB8;
-  background-color: #e2eff1;
+  color: #13b5da;
+  background-color: #a8e9f7;
   border-color: transparent;
 }
 .well-message.well-message-success {
@@ -8585,7 +8585,7 @@ iframe.file-browser {
   opacity: 0.7;
 }
 .error-wrap .error-icon.info {
-  color: #69ADB8;
+  color: #13b5da;
 }
 .error-wrap .error-icon.warning {
   color: #e7b235;
@@ -8810,7 +8810,7 @@ iframe.file-browser {
   color: #e7b235;
 }
 .color-info {
-  color: #69ADB8;
+  color: #13b5da;
 }
 .color-danger {
   color: #DE3B23;
@@ -9589,9 +9589,9 @@ iframe {
   padding: 2px 4px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 90%;
-  color: #69ADB8;
+  color: #13b5da;
   white-space: nowrap;
-  background-color: #e2eff1;
+  background-color: #a8e9f7;
   border-radius: 4px;
 }
 .alert-warning .navigation-tip {
@@ -9738,7 +9738,7 @@ th[align="right"] {
 }
 .badge-info {
   color: #fff !important;
-  background-color: #69ADB8 !important;
+  background-color: #13b5da !important;
 }
 .badge-critical {
   color: #fff !important;
@@ -10342,8 +10342,8 @@ fieldset[disabled] .btn-authentication.focus {
   color: #fff;
 }
 .alert-info a:not([class]) {
-  color: #69ADB8;
-  border-bottom: 1px dotted #69ADB8;
+  color: #13b5da;
+  border-bottom: 1px dotted #13b5da;
 }
 .alert-warning .btn-warning {
   color: #fff;
@@ -10473,18 +10473,18 @@ div.aspNetDisabled {
   opacity: 0.5;
 }
 .btn-outline-info {
-  color: #69ADB8;
+  color: #13b5da;
   background-color: transparent;
-  border-color: #69ADB8;
+  border-color: #13b5da;
 }
 .btn-outline-info:hover {
   color: #fff;
-  background-color: #69ADB8;
-  border-color: #69ADB8;
+  background-color: #13b5da;
+  border-color: #13b5da;
 }
 .btn-outline-info:focus,
 .btn-outline-info.focus {
-  box-shadow: 0 0 0 0.2rem rgba(105, 173, 184, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(19, 181, 218, 0.5);
 }
 .btn-outline-info.disabled {
   opacity: 0.5;
@@ -10668,8 +10668,8 @@ fieldset[disabled] .btn-danger-solid.focus {
   border-color: transparent;
 }
 .pricelabel.free {
-  color: #69ADB8;
-  background-color: #e2eff1;
+  color: #13b5da;
+  background-color: #a8e9f7;
   border-color: transparent;
 }
 .pricelabel h4 {
@@ -10803,7 +10803,8 @@ p,
 ul,
 ol,
 blockquote,
-.well {
+.well,
+.panel {
   margin-bottom: 20px;
 }
 blockquote {
@@ -11213,7 +11214,8 @@ img {
   ul,
   ol,
   blockquote,
-  .well {
+  .well,
+  .panel {
     margin-bottom: 30px;
   }
   .well-lg {
