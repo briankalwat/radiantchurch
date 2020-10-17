@@ -8,8 +8,8 @@
 @import "_variables.less";
 @import "_variable-overrides.less";
 @import "partials/_buttons.less";
-@import "partials/_colors.less";
 @import "partials/_typography.less";
+@import "partials/_colors.less";
 @import "_print.less";
 
 /*
@@ -29,6 +29,10 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+body {
+  color: @gray-darker;
+}
+
 // Temporary Fix for Safari 13 Select Rendering Bug
 select {
   text-rendering: auto;
@@ -39,6 +43,8 @@ select {
 main {
   display: block;
 }
+
+a { text-decoration: underline; }
 
 // 2. Bootstrap Overrides
 // -------------------------
@@ -59,15 +65,15 @@ a:hover i.fs {
   text-decoration: none;
 }
 
-.btn {
-  border-width: @btn-border-width;
-}
+mark { background-color: #fff46d; }
 
-.btn-default:hover { color: darken(@btn-default-border, 12%); }
-
+.panel { font-size: 90%; }
 .panel:not(.panel-default) { border-width: 0; }
 .panel-body { color: @gray-darker; }
 .panel-body *:last-child { margin-bottom: 0; }
+.panel-body { padding: (@spacing-unit-base/3*2); }
+
+.well-lg { padding: (@spacing-unit-base/3*2); }
 
 hr { border-width: 3px; }
 
@@ -89,8 +95,8 @@ hr { border-width: 3px; }
 // 3. Theme Styling
 // -------------------------
 
+.panel, .shadowed { box-shadow: 0 0 5px rgba(0,0,0,.05), 0 3px 2px rgba(0,0,0,.1); }
 .rounded { border-radius: @border-radius-large; }
-.shadowed { box-shadow: 0 0 5px rgba(0,0,0,.05), 0 3px 2px rgba(0,0,0,.1); }
 .letter-spacing-condensed { letter-spacing: -.5px; }
 img { max-width: 100%; }
 
