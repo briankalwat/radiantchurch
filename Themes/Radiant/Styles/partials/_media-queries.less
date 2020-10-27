@@ -31,6 +31,20 @@
     }
     .lead { font-size: ceil(@font-size-base * 1.5); }
     .text-handwritten { font-size: ceil(@font-size-base * 1.5); }
+
+    .accordion {
+        .panel-heading {
+          position: relative;
+      
+          a:after {
+            margin-top: -19px;
+          }
+      
+          a.collapsed:after {
+            margin-top: -16px;
+          }
+        }
+      }
 }
 
 // Large Breakpoint
