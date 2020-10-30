@@ -11219,6 +11219,39 @@ img {
   transform: rotate(0deg);
   margin-top: -13px;
 }
+.text-sliced {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  z-index: 1;
+}
+.text-sliced:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -14px;
+  bottom: 0;
+  left: -14px;
+  border-top: 5px solid #DE3B23;
+  z-index: -1;
+  transform: rotate(-2deg);
+}
+.text-tilt {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  transform: rotate(-3deg);
+}
+.text-tilt:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: -2%;
+  width: 104%;
+  height: 40%;
+  background-color: #DE3B23;
+  z-index: -1;
+}
 @media (min-width: 768px) {
   #announcement-rotator {
     margin: 60px 0;

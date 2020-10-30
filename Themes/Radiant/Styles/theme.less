@@ -149,6 +149,45 @@ img { max-width: 100%; }
   }
 }
 
+.text-sliced {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  z-index: 1;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -14px;
+    bottom: 0;
+    left: -14px;
+    border-top: 5px solid @brand-primary;
+    z-index: -1;
+    transform: rotate(-2deg);
+  }
+
+}
+
+.text-tilt {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  transform: rotate(-3deg);
+
+  &:after {
+    content:'';
+    position: absolute;
+    bottom: -5px;
+    left: -2%;
+    width: 104%;
+    height: 40%;
+    background-color: @brand-primary;
+    z-index: -1;
+  }
+}
+
+
 // 4. Responsive Overrides
 // -------------------------
 
